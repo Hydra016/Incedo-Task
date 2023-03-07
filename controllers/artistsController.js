@@ -1,12 +1,11 @@
 const request = require('request');
 const json2csv = require('json2csv');
 const fs = require('fs');
-require('dotenv/config');
 
 const getArtists = (req, res) => {
     const name = req.query.name;
     const url = `https://ws.audioscrobbler.com/2.0/?method=artist.search&artist=${name}&api_key=${process.env.API_KEY}&format=json`;
-  
+
     request(url, (error, response, body) => {
       if (!error && response.statusCode === 200) {
         const result = JSON.parse(body).results.artistmatches.artist;
