@@ -16,7 +16,7 @@ Extra:
 
 Since the task was pretty small I added some extra functionality like creating registering a user and logging in and then I used jwt so that only authenticated users can get the artists.
 
-routes are for users:
+routes:
 
 login: http://localhost:3000/users/login 
 
