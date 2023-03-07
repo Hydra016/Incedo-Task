@@ -19,6 +19,8 @@ Since the task was pretty small I added some extra functionality like creating r
 routes are for users:
 
 login: http://localhost:3000/users/login 
+
 signup: http://localhost:3000/users/signup 
+
 artists: http://localhost:3000/users/artist/search?name={artistName}
 
