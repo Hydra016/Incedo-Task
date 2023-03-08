@@ -20,6 +20,14 @@ routes:
 
 login: http://localhost:3000/users/login 
 
+already made user: 
+{
+"email": "test@gmail.com"
+"password": "test"
+}
+
+copy and paste the above json to the body in postman and you should get an auth-token in response. add that auth-token in the headers while sending the request for artists and it will work.
+
 signup: http://localhost:3000/users/signup 
 
 artists: http://localhost:3000/users/artist/search?name={artistName}
