@@ -14,7 +14,7 @@ Test the API on postman.
 
 Extra:
 
-Since the task was pretty small I added some extra functionality like creating registering a user and logging in and then I used jwt so that only authenticated users can get the artists.
+Since the task was pretty small I added some extra functionality like registering a user and logging in and then I used jwt so that only authenticated users can get the artists.
 
 routes:
 
